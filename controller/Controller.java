@@ -12,5 +12,12 @@ public class Controller {
     public Controller() {
         this.model = new Model();
         this.view = new View(this);
+        view.init();
+    }
+
+    //Main
+    public static void main(String[] args)
+    {
+        Controller controller = new Controller();
     }
 }
