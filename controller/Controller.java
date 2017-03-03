@@ -1,10 +1,11 @@
 package com.sokoban.controller;
 
 
+import com.sokoban.model.Direction;
 import com.sokoban.model.Model;
 import com.sokoban.view.View;
 
-public class Controller {
+public class Controller implements EventListener{
 
     private View view;
     private Model model;
@@ -19,5 +20,25 @@ public class Controller {
     public static void main(String[] args)
     {
         Controller controller = new Controller();
+    }
+
+    @Override
+    public void move(Direction direction) {
+
+    }
+
+    @Override
+    public void restart() {
+
+    }
+
+    @Override
+    public void startNextLevel() {
+
+    }
+
+    @Override
+    public void levelCompleted(int level) {
+
     }
 }
