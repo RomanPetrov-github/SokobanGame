@@ -16,6 +16,10 @@ public class Model {
             new LevelLoader(Paths.get("C:\\Developer\\MyProjects\\Java\\Sokoban\\src\\com\\sokoban\\res\\levels.txt"));
 
     //Methods
+    public void move(Direction direction){
+        //TODO
+    }
+
     public void restart(){
         restartLevel(currentLevel);
     }
